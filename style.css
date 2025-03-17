@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #000; /* Warna hitam */
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start; /* Geser ke kiri */
+    padding-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.deskripsi-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+    padding: 20px;
+}
+
+.deskripsi-box, .form-box {
+    background: #333; /* Warna abu-abu */
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.2);
+}
+
+h2 {
+    text-align: center;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #555; /* Warna abu-abu untuk input dan tombol */
+    color: white;
+}
+
+textarea {
+    height: 80px;
+}
+
+button {
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #777; /* Warna abu-abu lebih terang saat hover */
+}
